@@ -1,0 +1,5 @@
+answer = input("whos sexy? ")
+if answer == "diddy":
+  print("fair")
+else:
+  print("no fuck you")
