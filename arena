@@ -1,0 +1,23 @@
+name = input("Whats your name? ")
+print(f'Hello, {name}, welcome to the arena. ')
+weapon = input("Knife or gun? k for knife, g for gun:")
+if weapon == "k":
+    print("You chose knife")
+    enemy = input("Who do you wish to fight? Nicki Minaj or Gabe Owner? N for Nicki, G for Gabe: ")
+    if enemy == "N":
+      print("You were stabbed to death by Nicki Minaj. ")
+    elif enemy == "G": 
+      print("You win! Hoorah! ")
+    else:
+      print("A building collapsed and crushed you to death. ")
+elif weapon == "g":
+    print("You chose gun")
+    enemy = input("Who do you wish to fight? Nicki Minaj or Gabe Owner? N for Nicki, G for Gabe: ")
+    if enemy == "N":
+      print("You win! Hoorah! ")
+    elif enemy == "G": 
+      print("You were gunned down by Gabe Owners. ")
+    else:
+      print("A sinkhole appeared, swallowing you. ")
+else:
+  print("Diddy found you. ")
