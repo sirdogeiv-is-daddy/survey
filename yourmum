@@ -1,0 +1,7 @@
+diddy = int(input("How old are you? "))
+if diddy > 18:
+  print("unc get off the game")
+elif diddy < 18:
+  print("i love fucking minors")
+else:
+  print("OMG YOU BUM")
